@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Qoyod Web Application">
+<parameter name="browser" value="chrome"></parameter>
+  <test name="Regression Test" preserve-order="true">
+    <classes>
+      <class name="TestPackage.RegisterPageTest"/>
+      <class name="TestPackage.LoginPageTest"/>
+    </classes>
+  </test>
+</suite>
