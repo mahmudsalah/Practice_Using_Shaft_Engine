@@ -1,0 +1,26 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 7' test cases in the current suite                                        
+                           Test Method: 'TestPackage.LoginPageTest.CheckThatTheUserCannotLoginWithInvalidEmailFormat'                           
+                            Test Description: 'Verify that the user is not able to log-in with invalid Email format.'                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json". @25-04-2024 18:27:33.0096 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @25-04-2024 18:27:33.0098 PM
+[ReportManager] Moved the mouse to the middle of the element. @25-04-2024 18:27:33.0283 PM
+[ReportManager] Click "Log in". @25-04-2024 18:27:33.0617 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json". @25-04-2024 18:27:33.0626 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @25-04-2024 18:27:33.0630 PM
+[ReportManager] Text cleared Using Native Clear @25-04-2024 18:27:33.0756 PM
+[ReportManager] Type "Mahmod.com" into "Email:". @25-04-2024 18:27:33.0877 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json". @25-04-2024 18:27:33.0878 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @25-04-2024 18:27:33.0880 PM
+[ReportManager] Text cleared Using Native Clear @25-04-2024 18:27:33.0990 PM
+[ReportManager] Type "0000@!0000" into "Password:". @25-04-2024 18:27:34.0126 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json". @25-04-2024 18:27:34.0127 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @25-04-2024 18:27:34.0128 PM
+[ReportManager] Moved the mouse to the middle of the element. @25-04-2024 18:27:34.0293 PM
+[ReportManager] Click "LOG IN". @25-04-2024 18:27:34.0351 PM
+[ReportManager] Expected "Wrong email", and actual "Wrong email" @25-04-2024 18:27:34.0476 PM
+[ReportManager] Successfully created attachment 'Screenshot - Verify_18-27-34-979_25042024' @25-04-2024 18:27:34.0985 PM
+[ReportManager] Verification passed @25-04-2024 18:27:34.0985 PM

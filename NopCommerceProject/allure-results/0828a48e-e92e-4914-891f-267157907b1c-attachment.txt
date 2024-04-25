@@ -1,0 +1,26 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '5 out of 7' test cases in the current suite                                        
+                      Test Method: 'TestPackage.LoginPageTest.CheckThatTheUserCannotLoginWithValidEmailNotRegisteredBefore'                      
+                       Test Description: 'Verify that the user is not able to log-in with valid Email but not registered.'                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json". @25-04-2024 18:27:34.0995 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @25-04-2024 18:27:34.0996 PM
+[ReportManager] Moved the mouse to the middle of the element. @25-04-2024 18:27:35.0148 PM
+[ReportManager] Click "Log in". @25-04-2024 18:27:35.0555 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json". @25-04-2024 18:27:35.0555 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @25-04-2024 18:27:35.0564 PM
+[ReportManager] Text cleared Using Native Clear @25-04-2024 18:27:35.0752 PM
+[ReportManager] Type "Mahmod@Test.com" into "Email:". @25-04-2024 18:27:36.0029 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json". @25-04-2024 18:27:36.0029 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @25-04-2024 18:27:36.0029 PM
+[ReportManager] Text cleared Using Native Clear @25-04-2024 18:27:36.0215 PM
+[ReportManager] Type "0000@!0000" into "Password:". @25-04-2024 18:27:36.0474 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json". @25-04-2024 18:27:36.0474 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @25-04-2024 18:27:36.0474 PM
+[ReportManager] Moved the mouse to the middle of the element. @25-04-2024 18:27:36.0664 PM
+[ReportManager] Click "LOG IN". @25-04-2024 18:27:37.0009 PM
+[ReportManager] Expected "No customer account found", and actual "No customer account found" @25-04-2024 18:27:37.0318 PM
+[ReportManager] Successfully created attachment 'Screenshot - Verify_18-27-38-104_25042024' @25-04-2024 18:27:38.0104 PM
+[ReportManager] Verification passed @25-04-2024 18:27:38.0104 PM
