@@ -1,0 +1,8 @@
+[ReportManager] Setting "targetOperatingSystem" property with "windows". @25-04-2024 16:50:02.0453 PM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless=new, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\Mahmoud\OneDrive\D..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true} @25-04-2024 16:50:02.0481 PM
+[ReportManager] Attempting to run locally on: "Windows | Chrome", Headless Execution. @25-04-2024 16:50:02.0483 PM
+[ReportManager] Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection... @25-04-2024 16:50:02.0485 PM
+[ReportManager] Successfully Opened: "Windows | Chrome", Headless Execution. @25-04-2024 16:50:05.0855 PM
+[ReportManager] Target URL: "https://demo.nopcommerce.com/" @25-04-2024 16:50:06.0288 PM
+[ReportManager] Initial URL: "about:blank" @25-04-2024 16:50:06.0326 PM
+[ReportManager] Navigate to url "https://demo.nopcommerce.com/". @25-04-2024 16:50:07.0706 PM

@@ -1,0 +1,481 @@
+[INFO ] 2024-04-25 16:50:01.685 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.2.20240402[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-25 16:50:01.699 [] ReportManager - Checking for engine updates...
+[INFO ] 2024-04-25 16:50:01.730 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-04-25 16:50:01.731 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-04-25 16:50:01.765 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-04-25 16:50:02.314 [main] Utils - [TestNG] Running:
+  C:\Users\Mahmoud\OneDrive\Documents\GitHub\NopCommerceProject\TESTNG.xml
+
+[INFO ] 2024-04-25 16:50:02.355 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                   'TestPackage.RegisterPageTest.beforeMethod'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-25 16:50:02.454 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-04-25 16:50:02.481 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless=new, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\Mahmoud\OneDrive\D..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-04-25 16:50:02.483 [main] ReportManager - Attempting to run locally on: "Windows | Chrome", Headless Execution.
+[INFO ] 2024-04-25 16:50:02.485 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-04-25 16:50:02.504 [] ReportManager - Loaded OpenCV "opencv_java490".
+[DEBUG] 2024-04-25 16:50:04.611 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2024-04-25 16:50:04.650 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2024-04-25 16:50:05.307 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-04-25 16:50:05.311 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-04-25 16:50:05.311 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-04-25 16:50:05.312 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-04-25 16:50:05.313 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-04-25 16:50:05.313 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.316 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.316 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.316 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.317 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.317 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.317 [] wire -  >> "[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.317 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-04-25 16:50:05.317 [] headers - >> Accept: */*
+[DEBUG] 2024-04-25 16:50:05.317 [] headers - >> Host: api.github.com
+[DEBUG] 2024-04-25 16:50:05.317 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-04-25 16:50:05.317 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)
+[DEBUG] 2024-04-25 16:50:05.318 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-04-25 16:50:05.712 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.714 [] wire -  << "Server: GitHub.com[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.715 [] wire -  << "Date: Thu, 25 Apr 2024 14:50:05 GMT[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.715 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.715 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.715 [] wire -  << "Vary: Accept, Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.715 [] wire -  << "ETag: W/"eb81a86056557e148808d85149dd270fcf7bb270ab393ed3ad576696057fe6ff"[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.715 [] wire -  << "Last-Modified: Thu, 11 Apr 2024 15:11:51 GMT[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.715 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.715 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.716 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.716 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.716 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.716 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.716 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.716 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.717 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.717 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.717 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.717 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.717 [] wire -  << "X-RateLimit-Remaining: 59[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.717 [] wire -  << "X-RateLimit-Reset: 1714060205[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.717 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.717 [] wire -  << "X-RateLimit-Used: 1[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.717 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.718 [] wire -  << "Content-Length: 981[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.718 [] wire -  << "X-GitHub-Request-Id: CCC4:463AB:22B6893:22D67A1:662A6D9D[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.718 [] wire -  << "[\r][\n]"
+[DEBUG] 2024-04-25 16:50:05.721 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-04-25 16:50:05.722 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-04-25 16:50:05.725 [] headers - << Server: GitHub.com
+[DEBUG] 2024-04-25 16:50:05.726 [] headers - << Date: Thu, 25 Apr 2024 14:50:05 GMT
+[DEBUG] 2024-04-25 16:50:05.726 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-04-25 16:50:05.726 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2024-04-25 16:50:05.726 [] headers - << Vary: Accept, Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2024-04-25 16:50:05.726 [] headers - << ETag: W/"eb81a86056557e148808d85149dd270fcf7bb270ab393ed3ad576696057fe6ff"
+[DEBUG] 2024-04-25 16:50:05.726 [] headers - << Last-Modified: Thu, 11 Apr 2024 15:11:51 GMT
+[DEBUG] 2024-04-25 16:50:05.727 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2024-04-25 16:50:05.727 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2024-04-25 16:50:05.727 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2024-04-25 16:50:05.727 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-04-25 16:50:05.727 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2024-04-25 16:50:05.727 [] headers - << X-Frame-Options: deny
+[DEBUG] 2024-04-25 16:50:05.727 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2024-04-25 16:50:05.727 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2024-04-25 16:50:05.728 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2024-04-25 16:50:05.728 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2024-04-25 16:50:05.728 [] headers - << Content-Encoding: gzip
+[DEBUG] 2024-04-25 16:50:05.728 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2024-04-25 16:50:05.728 [] headers - << X-RateLimit-Remaining: 59
+[DEBUG] 2024-04-25 16:50:05.728 [] headers - << X-RateLimit-Reset: 1714060205
+[DEBUG] 2024-04-25 16:50:05.729 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2024-04-25 16:50:05.729 [] headers - << X-RateLimit-Used: 1
+[DEBUG] 2024-04-25 16:50:05.729 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2024-04-25 16:50:05.729 [] headers - << Content-Length: 981
+[DEBUG] 2024-04-25 16:50:05.729 [] headers - << X-GitHub-Request-Id: CCC4:463AB:22B6893:22D67A1:662A6D9D
+[DEBUG] 2024-04-25 16:50:05.762 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-04-25 16:50:05.765 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xad][0x96][0x8f]k[0xdb]8[0x14][0xc7][0xff][0x15][0xe3]1[0xe]B#[0xc7][0xce][0xcf][0x1a][0xc6][0xee][0xba][0xb4][[0xe1][0xda][0xb2][[0xd9][0xc1][0xed]F[0x90][0xed][0x17][[0x9b],i[0x92][0x9c]^[0x16][0xfa][0xbf][0xdf][0x93][0xed]"
+[DEBUG] 2024-04-25 16:50:05.765 [] wire -  << "[0x86][0xc4][0xdc][0xa5]c[0x9][0x81]Dv[0xa4][0xcf]{z?[0xbe][0xd2][0xc6][0xaf]4[0xf7]c[0xbf][0xb0]V[0x99]8[0x8][0xa8]b$g[0xb6][0xa8][0x12][0x92][0xca]2[0xd0][0xa0][0xa4][0x9]>[0x14]ti[0xdf][0xbd][0xf]>[0xbc][0xfb][0xed][0xea]~qy[0xfb][0xf6][0xfa][0xf6][0x12][0xff][0xe2]@[\r][0x98] [0x1c][0xf][0xa6][0xd3]Y[0x14]N[0xfd]3[0x9f][0x1a][0x3][0xd6],N[0xc7][0xc][0x1a]"[0xa2]+[0xc5]%[0xcd]:[0xe8][0xe6][0xa5][0xf9]i[0x97][[0xfc][0xe6][0xb5][0xa0]%[0x9c]q[0x9a][0x0]D[[0x85]-y[0xc7][0xd2]NP[0xe][0x87][0xc3][0xd2]<[0x98][0x91][0x88]D[0x83]h4[0x18][0x85]![0xe2]X[0xe6][0xc7][0xdb](a[0x90]*[H[0xed][0xc7][0x1b][0x9f][0xcb][0x9c][0x9][0x8c]~[0x3][0xef][0xd3][0xd4]2)[0xcc][0xa7]D[0xda][0xcf][0xed][0xb2]Q8;[0x9f]E[0xb3][0xe8][0xcc][0x17]2[0x83][0x85]#[0xf9]7[0xf3][0x9b][0xc9][0xfb][0xf2]|p;[0xbf][0x1c][0xdd][0xdd][0xe7][0xeb][0xbb][0xf9][0xf5]+[0x17][0xfb][0x15][0xb5]Twc_[0xbf]|[\n]"
+[DEBUG] 2024-04-25 16:50:05.765 [] wire -  << "Pe@[0xa7]RX[0x10][0xb6]N/[0x13][0x98][0xbd][0xe1]d[0xf6]z[0xf5]j[0x84][0x84]\[0xb7][0x8c][0xda][0x8c][0x8b][0xf9][0xa1][0xda]p0[0x13][0xec][0xbb][0xfe]r|[0x81][0xce][0xbf][0x1c][0xcf][0x9f][\r]"U[0xaa][0xbb][0x18][0xd7],%[0xe7][0xf2][0x1][0xb9][0xdd]m[0xec][0x97][0xe5]A[0xd3][0xc1][0x16][0xb2][0x5]2[0x91][0x1f][0xf]D[0xc8]&[0x90][0xb6][0x0][0x8c]1n[0xdd][0xd5]I[0xce][0xcc]s[0xd5]~[0xd8][0xd5][0x1a][0xb0][0xc1] [0x1a][0x8b][0xb9]uH[0x83][0xe9][0xd2][0xd0][0xad][0xf3]N[[0x1e][0x86][0xb6][0x8]t[0xf6]A[0xa0][0x9f][0x9b][0xba][0x8b]kv[0x95][0x98]T3UW[0xd9]1[0x1][0xd9][0x3]!X[0xea][0x9c][\n]"
+[DEBUG] 2024-04-25 16:50:05.765 [] wire -  << "[0xf6][0x9d][0x1e][\r]F[0x90]A^-;[0xc7]8X[0x3][0x10][0x4]+,[0xf5][0xa3]H[\r]a[0x13]([0xcd]V4][0xbb]0jH[0x81][0xad]0G[0xc7][0xd3];([0x84][0xdb][0xb5][0x2]l[0xbe][0xb]i][0xc2][0x98][0x85][0x5][0xcd]J'[0x12]K[0xca][\r]<[0xee][0xea][0xc0][0x1f][0x97][0x8b][0xaf][0xf][0xf3][0xbb]7o[0xe1]~bF[0xd7][0x8b][0xdf][0xaf][0x94][0x3][0xd0]|[0xe1][0xd4][0xc]![0x1d][0x19][0xc2][0xca][0xca][0xc1].[0xb0][0xf1]Kf[0x99])pFI[0x11][0x8d][0xcc][0xff][0x9c][0x9f]i[0x94][0xfd][0xd6][0xf0][0x99][0xaf]4[0xb4][0x92][0xbf]}[0x95]j[0xa0][0x16][0xe3]@q[0x96][0xef][0xf4][0xae]?[0x18][0xf5][0xc3][0xf0]>[0x1c][0xc7]a[0x18]G[0xc3][0xbf][0x10][0xad][0xaa][0x84][0xa3][0xad][0xff][0x9d]5[0xe][0xdd][0xac]V[0xe5][0xe3]O[0x9f][0xdd][0x6]tByW[0xfc]`j[0xd7]wE[0xf8];SGa[0xdb][0xf5]]l"[0xb3]5[0xee][0xfe][0xc5][0xb][0xef][0xcf][0x82][0xda]_[0x8c][0xf7][0xa6][0xa0]"[0x87][0xec]o[0xd1][0xf3].[0xaa]Ry[0x18]n[0x92]K[0x99]s [0xa9]^++[0x89]e[0xe2]k[0xec][0xbe][0xbc][0xa5][0x96][0xa5][0x17][0x92]0"[0x3][0xcf]J7[0x1a][0xe2](Y{[0xbf]f[0xa0]@d[0x14][0xc5][0xd4]c[0xc2]{:[0x9d][0x9f];[0x84]T[0xc5]9*[0xfa]l[0xe0][0xac]W[\n]"
+[DEBUG] 2024-04-25 16:50:05.765 [] wire -  << "[0xf5]<[0x3][0x7]N[0xb1][0xb]4[0xe5][0x9e][0x91][0x82][0xba][0x2]k[0xc]s[0xc8][0xb1][0xa2]=iLm[0xf2]F[0x16]4[0xc1]/[0x6]?c2[0xdc]n[0x18]{[0x98]PE[0xd3][0x2]HI[0xb1][0xff][0x88][0xe2][0x15][0x1e]s&[0xae][0x9f][0xfa]FV:[0x85]~[0xf3][0xb2]qdH[0xdc][0xb6][0xd1]O7[0x8]O[0xb0][0xff][0xe1][0xd6][0x19]&[0x9f][0xee][0x6][0x89][0x14],[0xa7]:e4~[0x80]$[0xc3]v[0x6]]RAs[0xd0][0x8d][0x17]c2m[0xbc][0x18][0x93][0xd9]I[0xb2][0x10][0xed][0xd5]@[0xc9]R-[0x8d]\Zb[0xbe]a'k4[0x1f][0x97][0x6][0xc7][0xfd]/Y[0x92][0xb6][0xa5][0x10][0x91][0x9][0x9][0xc9][0x17][\r]aX[0x17]D[0xe4]|j[0x9e][0xfb][0xd8][0x80]+[0x6][0xf]'[0x8][0xcf]h/W[0x16][0x8c][0x15]y[0xdc][0xfc]4~L[0xc9]y[0x13][0x8a])[0x9][0x7]'[0xc9][0xc8]t7#[0xdf]Pn,%[0xd8][0xe4][0x95][0x86][0xb8][0xf9][0xe9]'[0xd8][\n]"
+[DEBUG] 2024-04-25 16:50:05.765 [] wire -  << "u?[0xe0][0xd5]i[0xd2]X[0xc7][0x91]K[0xc9][0xf1][0xfd]0q[0xd6][0xaf][0xd8]?[0xde]Gf*[0xca]?R[0xce][0xb2][0xe6][0xb0][0xf2][0x98]1[0x15][0x9c][0xa0][0xfe][0xcf][0x9d][0x89]][0xc1]=[0x9e]y[0x8e]=[0xe5]>[0xbd][0xde][0x15][0xf6]u+,xe[0xec][0xf5][0xe2][0x1f]V[0x4]T[0x1f]E5[0xec][0xa8][0xd6] "[0x4][0xb]|[0xef][0x82]Z[0xa2]>[0xd4]w[0x82]TV[0x2][0xc5]<z[0xfc][0x17][0x13][0xa2]n*[0x18][0xc][0x0][0x0]"
+[DEBUG] 2024-04-25 16:50:05.766 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[WARN ] 2024-04-25 16:50:05.837 [main] ReportManager - Apr 25, 2024 4:50:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-04-25 16:50:05.837 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
+[INFO ] 2024-04-25 16:50:05.856 [main] ReportManager - Successfully Opened: "Windows | Chrome", Headless Execution.
+[DEBUG] 2024-04-25 16:50:05.926 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@edfd8a7
+[DEBUG] 2024-04-25 16:50:05.926 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2024-04-25 16:50:06.288 [main] ReportManager - Target URL: "https://demo.nopcommerce.com/"
+[INFO ] 2024-04-25 16:50:06.326 [main] ReportManager - Initial URL: "about:blank"
+[WARN ] 2024-04-25 16:50:06.882 [] ReportManager - ⚠️ You're using an outdated engine version "8.2.20240402" ⚠️
+Kindly upgrade to the latest one "8.2.20240411" to ensure the best experience.
+For more information click here: https://github.com/ShaftHQ/SHAFT_ENGINE/releases/latest .
+[INFO ] 2024-04-25 16:50:07.706 [main] ReportManager - Navigate to url "https://demo.nopcommerce.com/".
+[INFO ] 2024-04-25 16:50:07.726 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2024-04-25 16:50:07.754 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-25 16:50:07.757 [main] ReportManager - Initializing Important Links...
+[INFO ] 2024-04-25 16:50:07.761 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-04-25 16:50:07.897 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 7' test cases in the current suite                                        
+                             Test Method: 'TestPackage.RegisterPageTest.CheckThatTheUserCanCreateNewUserAsMaleUser'                             
+                              Test Description: 'Verify that the user is able to register as a new user [UserOne].'                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-25 16:50:07.915 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:07.917 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:08.202 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-04-25 16:50:08.802 [main] ReportManager - Click "Register".
+[INFO ] 2024-04-25 16:50:08.805 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:08.810 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:08.996 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-04-25 16:50:09.073 [main] ReportManager - Click "Male".
+[INFO ] 2024-04-25 16:50:09.076 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:09.101 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:09.264 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:09.391 [main] ReportManager - Type "UserOne" into "First name:".
+[INFO ] 2024-04-25 16:50:09.392 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:09.393 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:09.492 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:09.584 [main] ReportManager - Type "Salah" into "Last name:".
+[INFO ] 2024-04-25 16:50:09.585 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:09.586 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:10.318 [main] ReportManager - Select "8" from "By.name: DateOfBirthDay".
+[INFO ] 2024-04-25 16:50:10.772 [main] ReportManager - Select "5" from "By.name: DateOfBirthMonth".
+[INFO ] 2024-04-25 16:50:11.313 [main] ReportManager - Select "1920" from "By.name: DateOfBirthYear".
+[INFO ] 2024-04-25 16:50:11.315 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:11.316 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:11.439 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:11.561 [main] ReportManager - Type "UserOne06@Test.com" into "Email:".
+[INFO ] 2024-04-25 16:50:11.562 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:11.564 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:11.675 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:11.789 [main] ReportManager - Type "Amazon" into "Company name:".
+[INFO ] 2024-04-25 16:50:11.791 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:11.804 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:11.906 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:12.023 [main] ReportManager - Type "0000@!0000" into "Password:".
+[INFO ] 2024-04-25 16:50:12.025 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:12.027 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:12.126 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:12.235 [main] ReportManager - Type "0000@!0000" into "Confirm password:".
+[INFO ] 2024-04-25 16:50:12.241 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:12.248 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:12.417 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-04-25 16:50:13.148 [main] ReportManager - Click "REGISTER".
+[INFO ] 2024-04-25 16:50:13.289 [main] ReportManager - Expected "Your registration completed", and actual "Your registration completed"
+[DEBUG] 2024-04-25 16:50:13.724 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:52420<->140.82.121.6:443 closed
+[INFO ] 2024-04-25 16:50:14.593 [main] ReportManager - Successfully created attachment 'Screenshot - Verify_16-50-14-591_25042024'
+[INFO ] 2024-04-25 16:50:14.594 [main] ReportManager - Verification passed
+[INFO ] 2024-04-25 16:50:14.607 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: CheckThatTheUserCanCreateNewUserAsMaleUser'
+[INFO ] 2024-04-25 16:50:14.607 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                  Finished Execution of Test Method: 'TestPackage.RegisterPageTest.CheckThatTheUserCanCreateNewUserAsMaleUser'                  
+                              Test Description: 'Verify that the user is able to register as a new user [UserOne].'                              
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-25 16:50:14.768 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 7' test cases in the current suite                                        
+                         Test Method: 'TestPackage.RegisterPageTest.CheckThatTheUserCannotRegisterWithEmailAlreadyExist'                         
+                                      Test Description: 'Verify The Registration With Email Already Exist.'                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-25 16:50:14.770 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:14.771 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:14.988 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-04-25 16:50:15.319 [main] ReportManager - Click "Register".
+[INFO ] 2024-04-25 16:50:15.321 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:15.324 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:15.505 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-04-25 16:50:15.560 [main] ReportManager - Click "Male".
+[INFO ] 2024-04-25 16:50:15.561 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:15.563 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:15.715 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:15.868 [main] ReportManager - Type "UserOne" into "First name:".
+[INFO ] 2024-04-25 16:50:15.869 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:15.869 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:15.981 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:16.092 [main] ReportManager - Type "Salah" into "Last name:".
+[INFO ] 2024-04-25 16:50:16.093 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:16.096 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:16.705 [main] ReportManager - Select "8" from "By.name: DateOfBirthDay".
+[INFO ] 2024-04-25 16:50:17.157 [main] ReportManager - Select "5" from "By.name: DateOfBirthMonth".
+[INFO ] 2024-04-25 16:50:17.729 [main] ReportManager - Select "1920" from "By.name: DateOfBirthYear".
+[INFO ] 2024-04-25 16:50:17.730 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:17.733 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:17.836 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:17.933 [main] ReportManager - Type "UserOne06@Test.com" into "Email:".
+[INFO ] 2024-04-25 16:50:17.935 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:17.936 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:18.039 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:18.127 [main] ReportManager - Type "Amazon" into "Company name:".
+[INFO ] 2024-04-25 16:50:18.129 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:18.130 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:18.248 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:18.364 [main] ReportManager - Type "0000@!0000" into "Password:".
+[INFO ] 2024-04-25 16:50:18.365 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:18.371 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:18.467 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:18.561 [main] ReportManager - Type "0000@!0000" into "Confirm password:".
+[INFO ] 2024-04-25 16:50:18.562 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:18.568 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:18.753 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-04-25 16:50:19.124 [main] ReportManager - Click "REGISTER".
+[INFO ] 2024-04-25 16:50:19.257 [main] ReportManager - Expected "The specified email already exists", and actual "The specified email already exists"
+[INFO ] 2024-04-25 16:50:19.699 [main] ReportManager - Successfully created attachment 'Screenshot - Verify_16-50-19-697_25042024'
+[INFO ] 2024-04-25 16:50:19.699 [main] ReportManager - Verification passed
+[INFO ] 2024-04-25 16:50:19.701 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: CheckThatTheUserCannotRegisterWithEmailAlreadyExist'
+[INFO ] 2024-04-25 16:50:19.703 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+              Finished Execution of Test Method: 'TestPackage.RegisterPageTest.CheckThatTheUserCannotRegisterWithEmailAlreadyExist'              
+                                      Test Description: 'Verify The Registration With Email Already Exist.'                                      
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-25 16:50:19.716 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 7' test cases in the current suite                                        
+                            Test Method: 'TestPackage.RegisterPageTest.CheckThatTheUserCanCreateNewUserAsFemaleUser'                            
+                              Test Description: 'Verify that the user is able to register as a new user [UserTwo].'                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-25 16:50:19.718 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:19.719 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:19.877 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-04-25 16:50:20.255 [main] ReportManager - Click "Register".
+[INFO ] 2024-04-25 16:50:20.257 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:20.258 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:20.451 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-04-25 16:50:20.511 [main] ReportManager - Click "Female".
+[INFO ] 2024-04-25 16:50:20.512 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:20.513 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:20.631 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:20.760 [main] ReportManager - Type "UserTwo" into "First name:".
+[INFO ] 2024-04-25 16:50:20.762 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:20.767 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:20.845 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:20.955 [main] ReportManager - Type "Salah" into "Last name:".
+[INFO ] 2024-04-25 16:50:20.956 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:20.958 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:21.451 [main] ReportManager - Select "8" from "By.name: DateOfBirthDay".
+[INFO ] 2024-04-25 16:50:21.928 [main] ReportManager - Select "5" from "By.name: DateOfBirthMonth".
+[INFO ] 2024-04-25 16:50:22.524 [main] ReportManager - Select "1920" from "By.name: DateOfBirthYear".
+[INFO ] 2024-04-25 16:50:22.525 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:22.527 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:22.647 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:22.795 [main] ReportManager - Type "UserTwo06@Test.com" into "Email:".
+[INFO ] 2024-04-25 16:50:22.795 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:22.796 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:22.889 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:22.991 [main] ReportManager - Type "Amazon" into "Company name:".
+[INFO ] 2024-04-25 16:50:22.991 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:22.992 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:23.093 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:23.191 [main] ReportManager - Type "0000@!0000" into "Password:".
+[INFO ] 2024-04-25 16:50:23.192 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:23.197 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:23.275 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:23.382 [main] ReportManager - Type "0000@!0000" into "Confirm password:".
+[INFO ] 2024-04-25 16:50:23.383 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:23.384 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:23.585 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-04-25 16:50:24.282 [main] ReportManager - Click "REGISTER".
+[INFO ] 2024-04-25 16:50:24.418 [main] ReportManager - Expected "Your registration completed", and actual "Your registration completed"
+[INFO ] 2024-04-25 16:50:24.937 [main] ReportManager - Successfully created attachment 'Screenshot - Verify_16-50-24-936_25042024'
+[INFO ] 2024-04-25 16:50:24.938 [main] ReportManager - Verification passed
+[INFO ] 2024-04-25 16:50:24.940 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: CheckThatTheUserCanCreateNewUserAsFemaleUser'
+[INFO ] 2024-04-25 16:50:24.940 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                 Finished Execution of Test Method: 'TestPackage.RegisterPageTest.CheckThatTheUserCanCreateNewUserAsFemaleUser'                 
+                              Test Description: 'Verify that the user is able to register as a new user [UserTwo].'                              
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-25 16:50:24.945 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 7' test cases in the current suite                                        
+                           Test Method: 'TestPackage.LoginPageTest.CheckThatTheUserCannotLoginWithInvalidEmailFormat'                           
+                            Test Description: 'Verify that the user is not able to log-in with invalid Email format.'                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-25 16:50:24.954 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:24.960 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:25.142 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-04-25 16:50:25.574 [main] ReportManager - Click "Log in".
+[INFO ] 2024-04-25 16:50:25.576 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:25.578 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:25.693 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:25.797 [main] ReportManager - Type "Mahmod.com" into "Email:".
+[INFO ] 2024-04-25 16:50:25.798 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:25.799 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:25.904 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:26.032 [main] ReportManager - Type "0000@!0000" into "Password:".
+[INFO ] 2024-04-25 16:50:26.033 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:26.034 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:26.211 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-04-25 16:50:26.263 [main] ReportManager - Click "LOG IN".
+[INFO ] 2024-04-25 16:50:26.384 [main] ReportManager - Expected "Wrong email", and actual "Wrong email"
+[INFO ] 2024-04-25 16:50:26.810 [main] ReportManager - Successfully created attachment 'Screenshot - Verify_16-50-26-795_25042024'
+[INFO ] 2024-04-25 16:50:26.811 [main] ReportManager - Verification passed
+[INFO ] 2024-04-25 16:50:26.813 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: CheckThatTheUserCannotLoginWithInvalidEmailFormat'
+[INFO ] 2024-04-25 16:50:26.813 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                Finished Execution of Test Method: 'TestPackage.LoginPageTest.CheckThatTheUserCannotLoginWithInvalidEmailFormat'                
+                            Test Description: 'Verify that the user is not able to log-in with invalid Email format.'                            
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-25 16:50:26.825 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '5 out of 7' test cases in the current suite                                        
+                      Test Method: 'TestPackage.LoginPageTest.CheckThatTheUserCannotLoginWithValidEmailNotRegisteredBefore'                      
+                       Test Description: 'Verify that the user is not able to log-in with valid Email but not registered.'                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-25 16:50:26.827 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:26.829 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:26.976 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-04-25 16:50:27.387 [main] ReportManager - Click "Log in".
+[INFO ] 2024-04-25 16:50:27.390 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:27.392 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:27.506 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:27.605 [main] ReportManager - Type "Mahmod@Test.com" into "Email:".
+[INFO ] 2024-04-25 16:50:27.606 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:27.607 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:27.740 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:27.888 [main] ReportManager - Type "0000@!0000" into "Password:".
+[INFO ] 2024-04-25 16:50:27.889 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:27.890 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:28.051 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-04-25 16:50:28.497 [main] ReportManager - Click "LOG IN".
+[INFO ] 2024-04-25 16:50:28.650 [main] ReportManager - Expected "No customer account found", and actual "No customer account found"
+[INFO ] 2024-04-25 16:50:29.083 [main] ReportManager - Successfully created attachment 'Screenshot - Verify_16-50-29-082_25042024'
+[INFO ] 2024-04-25 16:50:29.083 [main] ReportManager - Verification passed
+[INFO ] 2024-04-25 16:50:29.085 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: CheckThatTheUserCannotLoginWithValidEmailNotRegisteredBefore'
+[INFO ] 2024-04-25 16:50:29.085 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+           Finished Execution of Test Method: 'TestPackage.LoginPageTest.CheckThatTheUserCannotLoginWithValidEmailNotRegisteredBefore'           
+                       Test Description: 'Verify that the user is not able to log-in with valid Email but not registered.'                       
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-25 16:50:29.093 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '6 out of 7' test cases in the current suite                                        
+                         Test Method: 'TestPackage.LoginPageTest.CheckThatTheUserIsAbleToCreateNewUserFromTheLoginPage'                         
+                      Test Description: 'Verify that the user is able to create new user from the log-in page [UserThree].'                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-25 16:50:29.097 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:29.100 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:29.290 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-04-25 16:50:29.652 [main] ReportManager - Click "Log in".
+[INFO ] 2024-04-25 16:50:29.655 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:29.658 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:29.866 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-04-25 16:50:30.262 [main] ReportManager - Click "REGISTER".
+[INFO ] 2024-04-25 16:50:30.262 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:30.263 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:30.453 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-04-25 16:50:30.543 [main] ReportManager - Click "Male".
+[INFO ] 2024-04-25 16:50:30.543 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:30.544 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:30.639 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:30.742 [main] ReportManager - Type "UserThree" into "First name:".
+[INFO ] 2024-04-25 16:50:30.744 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:30.752 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:30.871 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:30.989 [main] ReportManager - Type "Salah" into "Last name:".
+[INFO ] 2024-04-25 16:50:30.990 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:30.991 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:31.509 [main] ReportManager - Select "8" from "By.name: DateOfBirthDay".
+[INFO ] 2024-04-25 16:50:31.949 [main] ReportManager - Select "5" from "By.name: DateOfBirthMonth".
+[INFO ] 2024-04-25 16:50:32.519 [main] ReportManager - Select "1920" from "By.name: DateOfBirthYear".
+[INFO ] 2024-04-25 16:50:32.520 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:32.521 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:32.619 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:32.734 [main] ReportManager - Type "UserThree06@Test.com" into "Email:".
+[INFO ] 2024-04-25 16:50:32.735 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:32.738 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:32.843 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:32.937 [main] ReportManager - Type "Amazon" into "Company name:".
+[INFO ] 2024-04-25 16:50:32.938 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:32.940 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:33.064 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:33.170 [main] ReportManager - Type "0000@!0000" into "Password:".
+[INFO ] 2024-04-25 16:50:33.171 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:33.172 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:33.261 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:33.356 [main] ReportManager - Type "0000@!0000" into "Confirm password:".
+[INFO ] 2024-04-25 16:50:33.357 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:33.357 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:33.537 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-04-25 16:50:34.279 [main] ReportManager - Click "REGISTER".
+[INFO ] 2024-04-25 16:50:34.426 [main] ReportManager - Expected "Your registration completed", and actual "Your registration completed"
+[INFO ] 2024-04-25 16:50:34.947 [main] ReportManager - Successfully created attachment 'Screenshot - Verify_16-50-34-945_25042024'
+[INFO ] 2024-04-25 16:50:34.947 [main] ReportManager - Verification passed
+[INFO ] 2024-04-25 16:50:34.950 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: CheckThatTheUserIsAbleToCreateNewUserFromTheLoginPage'
+[INFO ] 2024-04-25 16:50:34.950 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+              Finished Execution of Test Method: 'TestPackage.LoginPageTest.CheckThatTheUserIsAbleToCreateNewUserFromTheLoginPage'              
+                      Test Description: 'Verify that the user is able to create new user from the log-in page [UserThree].'                      
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-25 16:50:34.958 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '7 out of 7' test cases in the current suite                                        
+                           Test Method: 'TestPackage.LoginPageTest.CheckThatTheUserIsAbleToLoginWithValidCredentials'                           
+                               Test Description: 'Verify that the user is able to log-in with valid credentials.'                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-25 16:50:34.960 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:34.964 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:35.157 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-04-25 16:50:35.599 [main] ReportManager - Click "Log in".
+[INFO ] 2024-04-25 16:50:35.601 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:35.606 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:35.708 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:35.818 [main] ReportManager - Type "UserOne06@Test.com" into "Email:".
+[INFO ] 2024-04-25 16:50:35.819 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:35.821 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-04-25 16:50:35.914 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-04-25 16:50:36.045 [main] ReportManager - Type "0000@!0000" into "Password:".
+[INFO ] 2024-04-25 16:50:36.046 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:36.047 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:36.212 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-04-25 16:50:36.263 [main] ReportManager - Click "Remember me?".
+[INFO ] 2024-04-25 16:50:36.264 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-04-25 16:50:36.292 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-25 16:50:36.459 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-04-25 16:50:37.353 [main] ReportManager - Click "LOG IN".
+[INFO ] 2024-04-25 16:50:37.412 [main] ReportManager - Expected "true", and actual "true"
+[INFO ] 2024-04-25 16:50:38.143 [main] ReportManager - Successfully created attachment 'Screenshot - Verify_16-50-38-141_25042024'
+[INFO ] 2024-04-25 16:50:38.143 [main] ReportManager - Verification passed
+[INFO ] 2024-04-25 16:50:38.145 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: CheckThatTheUserIsAbleToLoginWithValidCredentials'
+[INFO ] 2024-04-25 16:50:38.145 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                Finished Execution of Test Method: 'TestPackage.LoginPageTest.CheckThatTheUserIsAbleToLoginWithValidCredentials'                
+                               Test Description: 'Verify that the user is able to log-in with valid credentials.'                               
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-25 16:50:38.147 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-25 16:50:38.149 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'

@@ -6,7 +6,7 @@ import io.qameta.allure.TmsLink;
 
 public class RegisterPageTest extends TestBase {
 
-    @TmsLink("TC05")
+    @TmsLink("TC01")
     @Test(description = "Verify that the user is able to register as a new user [UserOne].")
     public void CheckThatTheUserCanCreateNewUserAsMaleUser(){
         new RegisterPage(driver).ClickOnRegisterButtonFromHomePage();
@@ -22,7 +22,7 @@ public class RegisterPageTest extends TestBase {
 
         driver.verifyThat().element(RegisterPage.getRegistrationSuccessMessage()).text().contains("Your registration completed").perform();
     }
-    @TmsLink("TC06")
+    @TmsLink("TC02")
     @Test(description = "Verify that the user is able to register as a new user [UserTwo].")
     public void CheckThatTheUserCanCreateNewUserAsFemaleUser(){
         new RegisterPage(driver).ClickOnRegisterButtonFromHomePage();
@@ -38,7 +38,7 @@ public class RegisterPageTest extends TestBase {
 
         driver.verifyThat().element(RegisterPage.getRegistrationSuccessMessage()).text().contains("Your registration completed").perform();
     }
-    @TmsLink("TC07")
+    @TmsLink("TC03")
     @Test(dependsOnMethods = {"CheckThatTheUserCanCreateNewUserAsMaleUser"}, description = "Verify The Registration With Email Already Exist.")
     public void CheckThatTheUserCannotRegisterWithEmailAlreadyExist(){
         new RegisterPage(driver).ClickOnRegisterButtonFromHomePage();

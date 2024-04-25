@@ -7,7 +7,7 @@ import org.testng.annotations.*;
 
 public class LoginPageTest extends TestBase {
 
-    @TmsLink("TC01")
+    @TmsLink("TC04")
     @Test(description = "Verify that the user is not able to log-in with invalid Email format.")
     public void CheckThatTheUserCannotLoginWithInvalidEmailFormat() {
         new LoginPage(driver).ClickOnLoginButtonFromHomePage();
@@ -18,7 +18,7 @@ public class LoginPageTest extends TestBase {
         driver.verifyThat().element(LoginPage.getEmailError_Message()).text().contains("Wrong email").perform();
     }
 
-    @TmsLink("TC02")
+    @TmsLink("TC05")
     @Test(description = "Verify that the user is not able to log-in with valid Email but not registered.")
     public void CheckThatTheUserCannotLoginWithValidEmailNotRegisteredBefore() {
         new LoginPage(driver).ClickOnLoginButtonFromHomePage();
@@ -29,7 +29,7 @@ public class LoginPageTest extends TestBase {
         driver.verifyThat().element(LoginPage.getNoCustomerFound_Message()).text().contains("No customer account found").perform();
     }
 
-    @TmsLink("TC03")
+    @TmsLink("TC06")
     @Test(description = "Verify that the user is able to create new user from the log-in page [UserThree].")
     public void CheckThatTheUserIsAbleToCreateNewUserFromTheLoginPage() {
         new LoginPage(driver).ClickOnLoginButtonFromHomePage();
@@ -47,7 +47,7 @@ public class LoginPageTest extends TestBase {
         driver.verifyThat().element(RegisterPage.getRegistrationSuccessMessage()).text().contains("Your registration completed").perform();
     }
 
-    @TmsLink("TC04")
+    @TmsLink("TC07")
     @Test(dependsOnMethods = {"CheckThatTheUserCannotLoginWithInvalidEmailFormat","CheckThatTheUserCannotLoginWithValidEmailNotRegisteredBefore","CheckThatTheUserIsAbleToCreateNewUserFromTheLoginPage"},
             description = "Verify that the user is able to log-in with valid credentials.")
     public void CheckThatTheUserIsAbleToLoginWithValidCredentials() {

@@ -1,0 +1,3 @@
+[ReportManager] Successfully Closed Driver. @25-04-2024 16:50:38.0385 PM
+[ReportManager] Close current window. @25-04-2024 16:50:38.0386 PM
+[ReportManager] Successfully created attachment 'Browser Action Test Data - Close current window - Actual Value' @25-04-2024 16:50:38.0388 PM

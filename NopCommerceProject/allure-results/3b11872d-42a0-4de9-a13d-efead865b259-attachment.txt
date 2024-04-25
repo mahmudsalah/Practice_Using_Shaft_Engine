@@ -1,0 +1,51 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 7' test cases in the current suite                                        
+                             Test Method: 'TestPackage.RegisterPageTest.CheckThatTheUserCanCreateNewUserAsMaleUser'                             
+                              Test Description: 'Verify that the user is able to register as a new user [UserOne].'                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json". @25-04-2024 16:50:07.0915 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @25-04-2024 16:50:07.0917 PM
+[ReportManager] Moved the mouse to the middle of the element. @25-04-2024 16:50:08.0202 PM
+[ReportManager] Click "Register". @25-04-2024 16:50:08.0802 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json". @25-04-2024 16:50:08.0805 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @25-04-2024 16:50:08.0810 PM
+[ReportManager] Moved the mouse to the middle of the element. @25-04-2024 16:50:08.0996 PM
+[ReportManager] Click "Male". @25-04-2024 16:50:09.0073 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json". @25-04-2024 16:50:09.0076 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @25-04-2024 16:50:09.0101 PM
+[ReportManager] Text cleared Using Native Clear @25-04-2024 16:50:09.0264 PM
+[ReportManager] Type "UserOne" into "First name:". @25-04-2024 16:50:09.0391 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json". @25-04-2024 16:50:09.0392 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @25-04-2024 16:50:09.0393 PM
+[ReportManager] Text cleared Using Native Clear @25-04-2024 16:50:09.0492 PM
+[ReportManager] Type "Salah" into "Last name:". @25-04-2024 16:50:09.0583 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json". @25-04-2024 16:50:09.0585 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @25-04-2024 16:50:09.0586 PM
+[ReportManager] Select "8" from "By.name: DateOfBirthDay". @25-04-2024 16:50:10.0318 PM
+[ReportManager] Select "5" from "By.name: DateOfBirthMonth". @25-04-2024 16:50:10.0772 PM
+[ReportManager] Select "1920" from "By.name: DateOfBirthYear". @25-04-2024 16:50:11.0313 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json". @25-04-2024 16:50:11.0314 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @25-04-2024 16:50:11.0316 PM
+[ReportManager] Text cleared Using Native Clear @25-04-2024 16:50:11.0439 PM
+[ReportManager] Type "UserOne06@Test.com" into "Email:". @25-04-2024 16:50:11.0561 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json". @25-04-2024 16:50:11.0562 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @25-04-2024 16:50:11.0564 PM
+[ReportManager] Text cleared Using Native Clear @25-04-2024 16:50:11.0675 PM
+[ReportManager] Type "Amazon" into "Company name:". @25-04-2024 16:50:11.0789 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json". @25-04-2024 16:50:11.0791 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @25-04-2024 16:50:11.0804 PM
+[ReportManager] Text cleared Using Native Clear @25-04-2024 16:50:11.0906 PM
+[ReportManager] Type "0000@!0000" into "Password:". @25-04-2024 16:50:12.0023 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json". @25-04-2024 16:50:12.0025 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @25-04-2024 16:50:12.0027 PM
+[ReportManager] Text cleared Using Native Clear @25-04-2024 16:50:12.0126 PM
+[ReportManager] Type "0000@!0000" into "Confirm password:". @25-04-2024 16:50:12.0235 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json". @25-04-2024 16:50:12.0241 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @25-04-2024 16:50:12.0248 PM
+[ReportManager] Moved the mouse to the middle of the element. @25-04-2024 16:50:12.0417 PM
+[ReportManager] Click "REGISTER". @25-04-2024 16:50:13.0148 PM
+[ReportManager] Expected "Your registration completed", and actual "Your registration completed" @25-04-2024 16:50:13.0288 PM
+[ReportManager] Successfully created attachment 'Screenshot - Verify_16-50-14-591_25042024' @25-04-2024 16:50:14.0593 PM
+[ReportManager] Verification passed @25-04-2024 16:50:14.0594 PM
