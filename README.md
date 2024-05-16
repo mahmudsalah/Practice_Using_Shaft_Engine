@@ -1,11 +1,12 @@
 # Sample Project That Uses Shaft_Engine Framework
-- Automating demo.nopcommerce.com different modules
+- Automating demo.nopcommerce.com different modules -> URL "https://demo.nopcommerce.com/"
 
-## Tech Stack
+## Tech Stack -> The main frameworks included in the project
+* Shaft_Engine Framework.
+* Page Object Model (POM) design pattern.
+* Data Driven Framework.
 
-**Web:**
-* Shaft_Engine Framework
-* Java
-* Maven
-* TestNG
-* Recording failed tests as videos & screenshots
+* The programming language is Java.
+* Selenium Webdriver.
+* TestNG.
+* Allure Report.
